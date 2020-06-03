@@ -1,6 +1,8 @@
 Awesome_ChattingApp
 ---------------------------------------------------------------
 
+개발관련 소통창구 : https://docs.google.com/document/d/1BNw_6XDqAEb_z2QM1GEHxnfU61NbPqQNSCarEJzmlIg/edit
+
 ***contributors***
 
 Team 두둥등장
