@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "306658730920",
+    "firebase_url": "https://awesome-chattingapp.firebaseio.com",
+    "project_id": "awesome-chattingapp",
+    "storage_bucket": "awesome-chattingapp.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:306658730920:android:b5a34158acd7351335f39d",
+        "android_client_info": {
+          "package_name": "com.example.awesome_chattingapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "306658730920-dam6musg82dfsdl5m6q7ag0etmvdf9an.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBW8Fm3IGUSXdWwMwTBFvWc2adJvSfQ-No"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "306658730920-dam6musg82dfsdl5m6q7ag0etmvdf9an.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
