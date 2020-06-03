@@ -1,4 +1,4 @@
-BLackBoard Assignment Reminder
+Awesome_ChattingApp
 ---------------------------------------------------------------
 
 ***contributors***
