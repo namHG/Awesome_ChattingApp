@@ -31,13 +31,13 @@ public class LoginActivity extends AppCompatActivity {
 
         // Initialize Firebase Auth
         mAuth = FirebaseAuth.getInstance();
-
+        etNickname = (EditText)findViewById(R.id.nickname);
 
         Button enterButton = (Button)findViewById(R.id.enter_button);
         enterButton.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                etNickname = (EditText)findViewById(R.id.nickname);
+
                 nickname = etNickname.getText().toString();
                 if(nickname.isEmpty()) {
                     Toast.makeText(LoginActivity.this,"Please enter your nickname",Toast.LENGTH_SHORT).show();
@@ -54,6 +54,7 @@ public class LoginActivity extends AppCompatActivity {
 //                                    updateUI(user);
                                     Toast.makeText(LoginActivity.this,"Nickname: " + nickname,Toast.LENGTH_SHORT).show();
                                     Intent login2chat = new Intent(LoginActivity.this, ChatActivity.class);
+                                    login2chat.putExtra("nickname", nickname);
                                     startActivity(login2chat);
                                 } else {
                                     // If sign in fails, display a message to the user.
