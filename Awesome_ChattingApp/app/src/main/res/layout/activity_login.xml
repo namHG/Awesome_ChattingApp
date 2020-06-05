@@ -21,7 +21,7 @@
         android:layout_height="wrap_content"
         android:ems="10"
         android:inputType="textPersonName"
-        android:hint="NickName"
+        android:hint="Nickname"
         android:layout_centerInParent="true" />
 
     <Button
