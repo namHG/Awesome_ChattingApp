@@ -125,6 +125,9 @@ public class ChatActivity extends AppCompatActivity {
             @Override
             public void onClick(View v) {
                 String sendText = chatEditText.getText().toString();
+                if(sendText.equals("")) {
+                    return;
+                }
                 // Write a message to the database
 
                 long now = System.currentTimeMillis();
