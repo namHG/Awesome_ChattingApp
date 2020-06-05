@@ -141,6 +141,7 @@ public class ChatActivity extends AppCompatActivity {
                 messages.put("nickname", nickname);
                 messages.put("message", sendText);
                 myRef.setValue(messages);
+                chatEditText.setText("");
             }
         });
     }
