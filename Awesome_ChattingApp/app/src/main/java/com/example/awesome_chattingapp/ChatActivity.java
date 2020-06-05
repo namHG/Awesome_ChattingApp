@@ -125,9 +125,7 @@ public class ChatActivity extends AppCompatActivity {
             @Override
             public void onClick(View v) {
                 String sendText = chatEditText.getText().toString();
-                Toast.makeText(ChatActivity.this,"Message : "+sendText,Toast.LENGTH_SHORT).show();
                 // Write a message to the database
-
 
                 long now = System.currentTimeMillis();
                 // 현재시간을 date 변수에 저장한다.
