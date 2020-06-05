@@ -126,7 +126,7 @@ public class ChatActivity extends AppCompatActivity {
             @Override
             public void onClick(View v) {
                 String sendText = chatEditText.getText().toString();
-                if(sendText.equals("")) {
+                if(sendText.replaceAll(" " , "").replaceAll("\\p{Z}", "").replaceAll("\n","").equals("")) {
                     return;
                 }
                 // Write a message to the database
