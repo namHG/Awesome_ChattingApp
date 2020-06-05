@@ -71,6 +71,7 @@ public class ChatActivity extends AppCompatActivity {
                 Log.d(TAG, "chatNickname: " + chatNickname);
                 Log.d(TAG, "chatMessage: " + chatMessage);
                 chatArrayList.add(chat);
+                recyclerView.scrollToPosition(mAdapter.getItemCount() - 1);
                 mAdapter.notifyDataSetChanged();
                 // ...
             }
