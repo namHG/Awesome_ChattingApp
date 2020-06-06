@@ -56,7 +56,7 @@ public class ChatActivity extends AppCompatActivity {
         recyclerView.setLayoutManager(layoutManager);
 
         // specify an adapter (see also next example)
-        mAdapter = new MyAdapter(chatArrayList);
+        mAdapter = new MyAdapter(chatArrayList, nickname);
         recyclerView.setAdapter(mAdapter);
 
         ChildEventListener childEventListener = new ChildEventListener() {
@@ -71,6 +71,7 @@ public class ChatActivity extends AppCompatActivity {
                 Log.d(TAG, "chatNickname: " + chatNickname);
                 Log.d(TAG, "chatMessage: " + chatMessage);
                 chatArrayList.add(chat);
+                recyclerView.scrollToPosition(mAdapter.getItemCount() - 1);
                 mAdapter.notifyDataSetChanged();
                 // ...
             }
@@ -125,9 +126,10 @@ public class ChatActivity extends AppCompatActivity {
             @Override
             public void onClick(View v) {
                 String sendText = chatEditText.getText().toString();
-                Toast.makeText(ChatActivity.this,"Message : "+sendText,Toast.LENGTH_SHORT).show();
+                if(sendText.replaceAll(" " , "").replaceAll("\\p{Z}", "").replaceAll("\n","").equals("")) {
+                    return;
+                }
                 // Write a message to the database
-
 
                 long now = System.currentTimeMillis();
                 // 현재시간을 date 변수에 저장한다.
@@ -143,6 +145,7 @@ public class ChatActivity extends AppCompatActivity {
                 messages.put("nickname", nickname);
                 messages.put("message", sendText);
                 myRef.setValue(messages);
+                chatEditText.setText("");
             }
         });
     }
