@@ -9,30 +9,40 @@
 
     <TextView
         android:id="@+id/title"
-        android:layout_width="211dp"
-        android:layout_height="213dp"
-        android:text="Awesome\nChattingApp" />
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Awesome Chatting"
+        android:textSize="50dp" />
 
     <EditText
         android:id="@+id/nickname"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_margin="400dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginStart="400dp"
+        android:layout_marginLeft="400dp"
+        android:layout_marginTop="400dp"
+        android:layout_marginEnd="400dp"
+        android:layout_marginRight="400dp"
         android:ems="10"
         android:hint="Nickname"
-        android:inputType="textPersonName"
-        android:layout_centerHorizontal="true"
-        android:layout_centerVertical="true"/>
+        android:inputType="textPersonName" />
 
     <Button
         android:id="@+id/enter_button"
-        android:layout_width="200dp"
+        android:layout_below="@+id/nickname"
+        android:layout_alignStart="@+id/nickname"
+        android:layout_alignLeft="@+id/nickname"
+        android:layout_alignEnd="@+id/nickname"
+        android:layout_alignRight="@+id/nickname"
+        android:layout_marginStart="0dp"
+        android:layout_marginLeft="0dp"
+        android:layout_marginTop="70dp"
+        android:layout_marginEnd="-1dp"
+        android:layout_marginRight="-1dp"
+        android:background="@drawable/button_shape"
+        android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_margin="500dp"
-        android:layout_centerHorizontal="true"
-        android:background="#A8ABFB"
-        android:text="시작하기"
-        android:textColor="#ffff"
-        android:textSize="20dp" />
+        android:text="Button" />
 
 </RelativeLayout>
