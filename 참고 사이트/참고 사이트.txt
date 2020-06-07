@@ -4,3 +4,5 @@ https://lcw126.tistory.com/263?category=797825
 : 버튼 모양 설정 참고
 https://commin.tistory.com/63
 : 상태 바 없애기 참고
+https://pluu.github.io/blog/android/2016/10/31/editText-color/
+: edittext 색상 변경 참고
