@@ -4,7 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="#102131"
+    android:background="@drawable/background"
     tools:context=".LoginActivity">
 
     <TextView
@@ -29,7 +29,7 @@
         android:colorControlNormal="#7D8FA1"
         android:backgroundTint ="#7D8FA1"
         android:colorControlActivated ="#00D9A7"
-        android:textColorHint="#7D8FA1"
+        android:textColorHint="#ffffff"
         android:hint="닉네임"
         android:inputType="textPersonName" />
 
@@ -48,6 +48,7 @@
         android:layout_marginEnd="1dp"
         android:layout_marginRight="1dp"
         android:background="@drawable/button_shape"
+        android:textColor="#ffffff"
         android:text="시작하기" />
 
 </RelativeLayout>
