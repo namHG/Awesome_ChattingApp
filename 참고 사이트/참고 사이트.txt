@@ -8,3 +8,7 @@ https://pluu.github.io/blog/android/2016/10/31/editText-color/
 : edittext 색상 변경 참고
 https://stackoverflow.com/questions/10194187/padding-for-hint-text-inside-edittext
 : chat box 텍스트 시작 지점 움직이기
+https://onlinepngtools.com/create-transparent-png
+:png 파일 만들기
+https://namget.tistory.com/entry/%EC%95%88%EB%93%9C%EB%A1%9C%EC%9D%B4%EB%93%9C-ripple-effect-%EC%A0%81%EC%9A%A9%ED%95%98%EA%B8%B0
+: 클릭시 반응 보이기
