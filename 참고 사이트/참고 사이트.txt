@@ -6,3 +6,5 @@ https://commin.tistory.com/63
 : 상태 바 없애기 참고
 https://pluu.github.io/blog/android/2016/10/31/editText-color/
 : edittext 색상 변경 참고
+https://stackoverflow.com/questions/10194187/padding-for-hint-text-inside-edittext
+: chat box 텍스트 시작 지점 움직이기
