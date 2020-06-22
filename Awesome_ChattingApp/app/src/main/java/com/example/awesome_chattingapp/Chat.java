@@ -3,6 +3,7 @@ package com.example.awesome_chattingapp;
 public class Chat {
     String nickname;
     String message;
+    String uid;
 
     public String getNickname() {
         return nickname;
@@ -11,6 +12,9 @@ public class Chat {
     public String getMessage() {
         return message;
     }
+    public String getUid() {
+        return uid;
+    }
 
     public void setMessage(String message) {
         this.message = message;
@@ -18,5 +22,9 @@ public class Chat {
 
     public void setNickname(String nickname) {
         this.nickname = nickname;
+    }
+
+    public void setUid(String uid) {
+        this.uid = uid;
     }
 }

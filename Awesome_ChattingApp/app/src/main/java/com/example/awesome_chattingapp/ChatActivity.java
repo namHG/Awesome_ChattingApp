@@ -31,6 +31,7 @@ public class ChatActivity extends AppCompatActivity {
     EditText chatEditText;
     Button sendButton;
     String nickname;
+    String uid;
     FirebaseDatabase database;
     private static final String TAG = "ChatActivity";
     ArrayList<Chat> chatArrayList;
@@ -46,6 +47,7 @@ public class ChatActivity extends AppCompatActivity {
         chatEditText = (EditText) findViewById(R.id.chatEditText);
         sendButton = (Button) findViewById(R.id.sendButton);
         nickname = getIntent().getStringExtra("nickname");
+        uid = getIntent().getStringExtra("uid");
 
         // use this setting to improve performance if you know that changes
         // in content do not change the layout size of the RecyclerView
@@ -56,7 +58,7 @@ public class ChatActivity extends AppCompatActivity {
         recyclerView.setLayoutManager(layoutManager);
 
         // specify an adapter (see also next example)
-        mAdapter = new MyAdapter(chatArrayList, nickname);
+        mAdapter = new MyAdapter(chatArrayList, nickname, uid);
         recyclerView.setAdapter(mAdapter);
 
         ChildEventListener childEventListener = new ChildEventListener() {
@@ -68,8 +70,10 @@ public class ChatActivity extends AppCompatActivity {
                 Chat chat = dataSnapshot.getValue(Chat.class);
                 String chatNickname = chat.getNickname();
                 String chatMessage = chat.getMessage();
+                String chatUid = chat.getUid();
                 Log.d(TAG, "chatNickname: " + chatNickname);
                 Log.d(TAG, "chatMessage: " + chatMessage);
+                Log.d(TAG, "chatUid: " + chatUid);
                 chatArrayList.add(chat);
                 recyclerView.scrollToPosition(mAdapter.getItemCount() - 1);
                 mAdapter.notifyDataSetChanged();
@@ -144,6 +148,7 @@ public class ChatActivity extends AppCompatActivity {
                 Hashtable<String, String> messages = new Hashtable<String, String>();
                 messages.put("nickname", nickname);
                 messages.put("message", sendText);
+                messages.put("uid", uid);
                 myRef.setValue(messages);
                 chatEditText.setText("");
             }
