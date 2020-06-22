@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<shape  xmlns:android="http://schemas.android.com/apk/res/android">
+    <gradient
+        android:startColor="#A0C1F5"
+        android:endColor="#FFFFFF"
+        android:angle="270"/>
+</shape >
+    <!--login design 1-->
+
+
+<!--<?xml version="1.0" encoding="utf-8"?>
+<shape  xmlns:android="http://schemas.android.com/apk/res/android">
+    <gradient
+        android:startColor="#090B20"
+        android:endColor="#064163"
+        android:angle="270"/>
+
+</shape >-->
+    <!--login design 2-->

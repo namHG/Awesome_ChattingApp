@@ -1,0 +1,10 @@
+https://black-jin0427.tistory.com/92
+:그라데이션 설정 참고
+https://lcw126.tistory.com/263?category=797825
+: 버튼 모양 설정 참고
+https://commin.tistory.com/63
+: 상태 바 없애기 참고
+https://pluu.github.io/blog/android/2016/10/31/editText-color/
+: edittext 색상 변경 참고
+https://stackoverflow.com/questions/10194187/padding-for-hint-text-inside-edittext
+: chat box 텍스트 시작 지점 움직이기
