@@ -33,6 +33,7 @@ public class LoginActivity extends AppCompatActivity {
         mAuth = FirebaseAuth.getInstance();
         etNickname = (EditText)findViewById(R.id.nickname);
 
+
         Button enterButton = (Button)findViewById(R.id.enter_button);
         enterButton.setOnClickListener(new View.OnClickListener() {
             @Override
@@ -55,6 +56,7 @@ public class LoginActivity extends AppCompatActivity {
                                     Toast.makeText(LoginActivity.this,"Nickname: " + nickname,Toast.LENGTH_SHORT).show();
                                     Intent login2chat = new Intent(LoginActivity.this, ChatActivity.class);
                                     login2chat.putExtra("nickname", nickname);
+                                    login2chat.putExtra("uid", user.getUid());
                                     startActivity(login2chat);
                                 } else {
                                     // If sign in fails, display a message to the user.
