@@ -65,7 +65,7 @@ public class MyAdapter extends RecyclerView.Adapter<MyAdapter.MyViewHolder> {
     public void onBindViewHolder(MyViewHolder holder, int position) {
         // - get element from your dataset at this position
         // - replace the contents of the view with that element
-        holder.textView.setText(mDataset.get(position).getNickname() + " : " + mDataset.get(position).getMessage());
+        holder.textView.setText(mDataset.get(position).getNickname() + "\n" + ": " + mDataset.get(position).getMessage());
 
     }
 
