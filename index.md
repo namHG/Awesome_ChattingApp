@@ -48,10 +48,10 @@ SOFTWARE.
 
 ## Downloads
 
-Latest Release ver 0.1.0 (2020/06/24)
+Latest Release [ver 0.1.0 (2020/06/24)](https://github.com/bnbong/Awesome_ChattingApp/releases/tag/0.1.0)
 
 *   [Development Notes](https://bnbong.github.io/awesomechatappdev/)
-*   Download available soon!!
+*   하단의 Awesome_Chat.apk를 기기에 다운받습니다.
 
 ## Required Environment(Recommended)
 
