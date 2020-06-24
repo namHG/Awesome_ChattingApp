@@ -12,6 +12,14 @@ Awesome_ChattingApp은 익명성이 보장되는 누구나 빠르고 쉽게 다�
 이 앱은 번거로운 로그인 절차 없이 빠르게 채팅을 하기 위해 개발되었습니다. firebase에서 제공하는 실시간으로 데이터 입출력을 가능하게 해주는 서비스를
 이용하여 채팅기능을 구현했습니다.
 
+### Detailed Info
+
+[Information(Korean)](index.md)
+
+### Website
+
+https://bnbong.github.io/Awesome_ChattingApp/
+
 앱 특징
 ---------------------------------------------------------------
 *   별도의 로그인 절차 없이 닉네임만 입력하면 바로 채팅방 입장이 가능합니다.
