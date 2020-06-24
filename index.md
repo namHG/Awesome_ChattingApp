@@ -63,13 +63,14 @@ Latest Release ver 0.1.0 (2020/06/24)
 *   앱을 설치할 기기의 사양이 요구 사양과 적합한지 확인한 후, 최근에 Released된 버전의 apk를 다운 받습니다.
 *   설치가 끝난 후 앱을 켜서 서비스를 이용합니다.
 
-## Troubleshooting
+## Troubleshooting & Issues
 
 [Goto IssuePage](https://github.com/bnbong/Awesome_ChattingApp/issues)
 
 1. 상단의 링크를 클릭하여 이슈페이지로 이동합니다.
 2. 오른쪽 위의 New issue 버튼을 눌러 이슈를 작성합니다.
-3. 문제가 있는 앱의 화면의 캡쳐화면과 함께 증상을 상세히 적어주세요!
+3. [templates](https://github.com/bnbong/Awesome_ChattingApp/tree/master/.github/ISSUE_TEMPLATE)의 템플릿을 사용하여 작성합니다.
+4. 문제가 있는 앱의 화면의 캡쳐화면과 함께 증상을 상세히 적어주세요!
 
 ..또는 개발자에게 직접 문의하세요!
 
