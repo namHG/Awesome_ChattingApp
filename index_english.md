@@ -9,7 +9,7 @@ layout: default
 Awesome_ChattingApp is a chat app that anyone with anonymity can chat with a large number of people quickly and easily.
 This app was developed to chat quickly without the hassle of logging in. we implemented chatting services with firebase's real-time data I/O service.
 
-![titlepage](docs/titlepage.png)  ![chattingpage](docs/chattingpage.png)
+![titlepage](docs/titlepage.png)  ![chattingpage](docs/chattingimage.jpg)
 
 ## Features
 
