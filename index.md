@@ -98,7 +98,7 @@ db 및 이슈관리 : [남현기(namHG)](https://github.com/namHG/namHG.github.i
 
 ## Contributing Awesome_ChattingApp
 
-### contributing with source codes (추후 수정)
+### contributing with source codes
 
 1. [Director](https://github.com/bnbong/bnbong.github.io)에게 연락하여 firebase의 Awesome_ChattingApp의 접근 권한을 얻습니다.
 2. 작업 환경은 Android Studio 3.6.3, JAVA version 12로 설정합니다.
