@@ -162,6 +162,13 @@ git push origin [contributor's github nickname]
 *   Plese **do not** modify README.md file!!!
 *   Please save all new documents in the /docs folder.
 
+### Security
+
+Goto SECURITY POLICY of Awesome_ChattingApp : https://github.com/bnbong/Awesome_ChattingApp/blob/master/SECURITY.md
+
+*   **Awesome_Chat ver 0.1.0 does not have a additional security service.**
+*   If you want more informations about security, please contact the director's personal mail (bbbong9@gmail.com)
+
 You can see all the source codes in this repository.
 [goto Awesome_ChattingApp repository](https://github.com/bnbong/Awesome_ChattingApp)
 
