@@ -1,7 +1,7 @@
 Awesome_ChattingApp
 ================================================================
 
-Download latest version : [ver 0.1.0 (2020/06/24)](https://github.com/bnbong/Awesome_ChattingApp/releases/tag/0.1.0)
+**Download latest version** : [ver 0.1.0 (2020/06/24)](https://github.com/bnbong/Awesome_ChattingApp/releases/tag/0.1.0)
 
 개발자노트 : https://bnbong.github.io/awesomechatappdev/
 
