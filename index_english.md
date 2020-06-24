@@ -164,7 +164,7 @@ git push origin [contributor's github nickname]
 
 ### Security
 
-Goto SECURITY POLICY of Awesome_ChattingApp : https://github.com/bnbong/Awesome_ChattingApp/blob/master/SECURITY.md
+Goto SECURITY POLICY of Awesome_ChattingApp : [SECURITY.md](https://github.com/bnbong/Awesome_ChattingApp/blob/master/SECURITY.md)
 
 *   **Awesome_Chat ver 0.1.0 does not have a additional security service.**
 *   If you want more informations about security, please contact the director's personal mail (bbbong9@gmail.com)
