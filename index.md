@@ -163,6 +163,13 @@ git push origin [contributor's github nickname]
 *   README.md파일은 **절대**수정하지 마세요!!!
 *   새로운 문서화 작업물은 모두 /docs 폴더에 저장해주세요
 
+### Security
+
+Goto SECURITY POLICY of Awesome_ChattingApp : https://github.com/bnbong/Awesome_ChattingApp/blob/master/SECURITY.md
+
+*   **Awesome_Chat ver 0.1.0 에서는 별도의 보안 서비스가 적용되어 있지 않습니다.**
+*   이와 관련된 문의 사항은 디렉터 개인 메일 (bbbong9@gmail.com) 으로 문의주시길 바랍니다.
+
 본 레포지토리에서 모든 소스코드를 보실 수 있습니다.
 [goto Awesome_ChattingApp repository](https://github.com/bnbong/Awesome_ChattingApp)
 
