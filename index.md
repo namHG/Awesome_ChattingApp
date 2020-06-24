@@ -52,6 +52,8 @@ Latest Release ver 0.1.0 (2020/06/24)
 
 ## Required Environment(Recommended)
 
+| System          | environment           |
+|:----------------|:----------------------|
 | Memory          | More than 600MB       |
 | Android version | Android 4.0 or later  |
 | Storage         | More than 1GB         |
