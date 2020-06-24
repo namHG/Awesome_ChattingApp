@@ -101,7 +101,7 @@ db 및 이슈관리 : [남현기(namHG)](https://github.com/namHG/namHG.github.i
 2. 작업 환경은 Android Studio 3.6.3, JAVA version 12로 설정합니다.
 3. 다음과 같은 명령어를 작성하여 Awesome_ChattingApp의 레포지토리에 있는 모든 소스코드를 다운 받고, 자신의 브랜치를 생성합니다. 이때, 브랜치 명은 자신의 Github 닉네임으로 작성합니다.
 
-'''
+```
 git clone git@github.com:bnbong/Awesome_ChattingApp.git
 
 git branch [contributor's github nickname]
@@ -109,11 +109,11 @@ git branch [contributor's github nickname]
 git checkout [contributor's github nickname]
 
 git push --set-upstream origin [contributor's github nickname]
-'''
+```
 
 4. 소스코드와 관련된 작업을 마친 뒤, 작업물을 본 레포지토리에 업로드하는 방법은 다음과 같습니다.
 
-'''
+```
 git status
 
 git add .../newfile.java
@@ -121,7 +121,7 @@ git add .../newfile.java
 git commit -m "write your works"
 
 git push origin [contributor's github nickname]
-'''
+```
 
 
 **주의사항**
@@ -132,7 +132,7 @@ git push origin [contributor's github nickname]
 
 1. 다음과 같은 명령어를 작성하여 Awesome_ChattingApp의 레포지토리에 있는 모든 소스코드를 다운 받고, 자신의 브랜치를 생성합니다. 이때, 브랜치 명은 자신의 Github 닉네임으로 작성합니다.
 
-'''
+```
 git clone git@github.com:bnbong/Awesome_ChattingApp.git
 
 git branch [contributor's github nickname]
@@ -140,11 +140,11 @@ git branch [contributor's github nickname]
 git checkout [contributor's github nickname]
 
 git push --set-upstream origin [contributor's github nickname]
-'''
+```
 
 2. 문서화와 관련된 작업을 마친 뒤, 작업물을 본 레포지토리에 업로드하는 방법은 다음과 같습니다.
 
-'''
+```
 git status
 
 git add .../newfile.md
@@ -152,11 +152,11 @@ git add .../newfile.md
 git commit -m "write your works"
 
 git push origin [contributor's github nickname]
-'''
+```
 
 
 **주의사항**
-*   README.md파일은 _절대_수정하지 마세요!!!
+*   README.md파일은 **절대**수정하지 마세요!!!
 *   새로운 문서화 작업물은 모두 /docs 폴더에 저장해주세요
 
 본 레포지토리에서 모든 소스코드를 보실 수 있습니다.
