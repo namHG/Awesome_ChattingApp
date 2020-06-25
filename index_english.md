@@ -67,6 +67,8 @@ Latest Release [ver 0.1.0 (2020/06/24)](https://github.com/bnbong/Awesome_Chatti
 
 ## Troubleshooting & Issues
 
+**Our team welcomes all reported issues and contributors to Bug reporting & fix!**
+
 [Goto IssuePage](https://github.com/bnbong/Awesome_ChattingApp/issues)
 
 1. Click the link at the top and go to the Issues page.
@@ -162,7 +164,14 @@ git push origin [contributor's github nickname]
 *   Plese **do not** modify README.md file!!!
 *   Please save all new documents in the /docs folder.
 
-### Security
+## Pull requests
+
+*   After completing the attribute, the procedure for PR in this repository is detailed in [TEMPLATE](PULL_REQUEST_TEMPLATE.md).
+*   I would like to thank all of you for your contributions to the Awesome_ChattingApp project..
+*   **Before PR, you should be familiar with all the things listed at the top.**
+*   For all questions regarding PR, please contact the director's personal e-mail at (bbbong9@gmail.com).
+
+## Security
 
 Goto SECURITY POLICY of Awesome_ChattingApp : [SECURITY.md](https://github.com/bnbong/Awesome_ChattingApp/blob/master/SECURITY.md)
 
