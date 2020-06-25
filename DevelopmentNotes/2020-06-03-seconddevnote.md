@@ -18,13 +18,13 @@
 박종윤, 프론트엔드는 김택윤, db관리 및 이슈트레킹은 남현기, 문서화는 이준혁 팀원으로 모두 원하는 역할을 배분받았습니다.
 
 역할배분이 끝나자마자 첫 회의때 처럼 다시한번 대략적인 앱의 디자인부터 설계했습니다. 회의를 통해 대략적인 앱의 스케치는 다음과 같습니다.
-![sketch1](docs/2ndday-1.png)
-![sketch2](docs/2ndday-2.png)
+![sketch1](https://github.com/bnbong/awesomechatappdev/blob/master/docs/2ndday-1.png)
+![sketch2](https://github.com/bnbong/awesomechatappdev/blob/master/docs/2ndday-2.png)
 (대략적인 스케치라 그림이 곱지 못한점 죄송합니다..)
 
 위의 그림과 같은 구조의 앱 디자인을 설계하면서 이미 존재하는 채팅서비스의 UI를 참조하였습니다. 참조한 이미지는 다음과 같습니다.
-![pic1](docs/2ndday-3.png)
-![pic2](docs/2ndday-4.png)
+![pic1](https://github.com/bnbong/awesomechatappdev/blob/master/docs/2ndday-3.png)
+![pic2](https://github.com/bnbong/awesomechatappdev/blob/master/docs/2ndday-4.png)
 
 왼쪽에 큰 화면에는 모든 채팅기록이 남으며, 오른쪽 칸에는 채팅에 참여한 인원을 볼 수 있게 UI를 제작하기로 결정했습니다.
 채팅에 참여하는 인원들은 채팅앱에 처음 접속하면 로그인을 하게 되는데, 저희 팀은 회원의 회원정보를 담은 데이터를 db에 저장하기보다,
