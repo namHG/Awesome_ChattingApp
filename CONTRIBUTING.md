@@ -61,3 +61,69 @@ git push origin [contributor's github nickname]
 **주의사항**
 *   README.md파일은 **절대**수정하지 마세요!!!
 *   새로운 문서화 작업물은 모두 /docs 폴더에 저장해주세요
+
+---------------------------------------------------------------------------------------------------
+
+### contributing with source codes
+
+1. Contact to [Director](https://github.com/bnbong/bnbong.github.io)and gain permission of firebase's Awesome_ChattingApp accessment.
+2. Set the working environment to Android Studio 3.6.3, JAVA version 12.
+3. Use the following command to download all source codes from the Awesome_ChattingApp's repository and create your own branch. At this time, the Branch name is written with your Github nickname.
+
+```
+git clone git@github.com:bnbong/Awesome_ChattingApp.git
+
+git branch [contributor's github nickname]
+
+git checkout [contributor's github nickname]
+
+git push --set-upstream origin [contributor's github nickname]
+```
+
+4. Once you have finished working with the source code, the procedure for uploading your work to this repository is as follows:
+
+```
+git status
+
+git add .../newfile.java
+
+git commit -m "write your works"
+
+git push origin [contributor's github nickname]
+```
+
+
+**precautions**
+*   There is no coding style required by this project, but I would appreciate it if you could summarize a line of what this class is for in front of the class of your source code.
+*   It is possible to modify the source code attribution of the bug fix without permission. However, when adding a new service, you must inform the director and get permission to work.
+
+### contributing with documentation
+
+1. Use the following command to download all source codes from the Awesome_ChattingApp's repository and create your own branch. At this time, the Branch name is written with your Github nickname.
+
+```
+git clone git@github.com:bnbong/Awesome_ChattingApp.git
+
+git branch [contributor's github nickname]
+
+git checkout [contributor's github nickname]
+
+git push --set-upstream origin [contributor's github nickname]
+```
+
+2. Once you have finished working on documentation, the procedure for uploading your work to this repository is as follows:
+
+```
+git status
+
+git add .../newfile.md
+
+git commit -m "write your works"
+
+git push origin [contributor's github nickname]
+```
+
+
+**precautions**
+*   Plese **do not** modify README.md file!!!
+*   Please save all new documents in the /docs folder.
