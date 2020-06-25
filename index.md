@@ -68,6 +68,8 @@ Latest Release [ver 0.1.0 (2020/06/24)](https://github.com/bnbong/Awesome_Chatti
 
 ## Troubleshooting & Issues
 
+**저희 팀은 보고되는 모든 Issue들과 contributors 여러분들의 bug reporting & fix를 환영합니다!**
+
 [Goto IssuePage](https://github.com/bnbong/Awesome_ChattingApp/issues)
 
 1. 상단의 링크를 클릭하여 이슈페이지로 이동합니다.
@@ -163,7 +165,14 @@ git push origin [contributor's github nickname]
 *   README.md파일은 **절대**수정하지 마세요!!!
 *   새로운 문서화 작업물은 모두 /docs 폴더에 저장해주세요
 
-### Security
+## Pull requests
+
+*   Contribute를 마친 후, 본 레포지토리에 PR을 하는 방법은 [TEMPLATE](PULL_REQUEST_TEMPLATE.md)에 상세히 작성되어 있습니다.
+*   Awesome_ChattingApp 프로젝트에 기여하신 모든 여러분들께 감사의 말씀을 드립니다.
+*   **RP전, 상단에 나와 있는 모든 사항들을 숙지하고 계셔야 합니다.**
+*   PR에 관하여 모든 질문사항은 디렉터 개인 메일 (bbbong9@gmail.com) 으로 문의주시길 바랍니다.
+
+## Security
 
 Goto SECURITY POLICY of Awesome_ChattingApp : [SECURITY.md](https://github.com/bnbong/Awesome_ChattingApp/blob/master/SECURITY.md)
 
