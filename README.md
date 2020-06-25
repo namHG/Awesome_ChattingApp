@@ -45,6 +45,7 @@ https://bnbong.github.io/Awesome_ChattingApp/
 License
 ---------------------------------------------------------------
 
+```
 MIT LICENSE
 
 Copyright (c) 2020 이준혁
@@ -66,11 +67,13 @@ AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
 LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
 OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
 SOFTWARE.
+```
 
 
 개발 환경 (Development Environment)
 ---------------------------------------------------------------
 
+```
 Android Studio 3.6.3
 Build #AI-192.7142.36.36.6392135, built on April 14, 2020
 Runtime version: 1.8.0_212-release-1586-b04 amd64
@@ -82,6 +85,7 @@ Cores: 12
 Registry: ide.new.welcome.screen.force=true
 Non-Bundled Plugins: 
 SDK : Android API 29 ®
+```
 
 
 개발자 소개 (Developers)
