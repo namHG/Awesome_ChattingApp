@@ -1,13 +1,18 @@
 Awesome_ChattingApp
 ================================================================
+[![Open Source Love](https://badges.frapsoft.com/os/v1/open-source.svg?v=103)](https://github.com/ellerbrock/open-source-badges/)
+[![License: MIT](https://img.shields.io/badge/License-MIT-green.svg)](https://opensource.org/licenses/MIT)
+
+<img align="center" width="300" src="docs/icon.png" alt="app's icon" />
 
 **Check detailed [Information(Korean)](index.md) or [Information(English)](index_english.md)**
+*   You can read more information like contributing, wiki, downloads app etc.
 
 **Download latest version** : [ver 0.1.0 (2020/06/24)](https://github.com/bnbong/Awesome_ChattingApp/releases/tag/0.1.0)
 
-개발자노트 : https://bnbong.github.io/awesomechatappdev/
+Development Notes : https://bnbong.github.io/awesomechatappdev/
 
-개발관련 소통창구 : https://docs.google.com/document/d/1BNw_6XDqAEb_z2QM1GEHxnfU61NbPqQNSCarEJzmlIg/edit
+개발관련 소통창구(Google docs) : https://docs.google.com/document/d/1BNw_6XDqAEb_z2QM1GEHxnfU61NbPqQNSCarEJzmlIg/edit
 
 앱 소개 (Overview)
 ---------------------------------------------------------------
@@ -24,6 +29,8 @@ This app was developed to chat quickly without the hassle of logging in. we impl
 
 https://bnbong.github.io/Awesome_ChattingApp/
 
+![titlepage](docs/titlepage.png)  ![chattingpage](docs/messages.png)
+
 앱 특징 (Features)
 ---------------------------------------------------------------
 *   별도의 로그인 절차 없이 닉네임만 입력하면 바로 채팅방 입장이 가능합니다.
@@ -34,6 +41,31 @@ https://bnbong.github.io/Awesome_ChattingApp/
 *   You can enter the chat room right away by simply typing in your nickname without having to log in.
 *   It's easy to read the chat you created separately from the chat of others.
 *   The simple design allows you to read the chat at a glance.
+
+License
+---------------------------------------------------------------
+
+MIT LICENSE
+
+Copyright (c) 2020 이준혁
+
+Permission is hereby granted, free of charge, to any person obtaining a copy
+of this software and associated documentation files (the "Software"), to deal
+in the Software without restriction, including without limitation the rights
+to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+copies of the Software, and to permit persons to whom the Software is
+furnished to do so, subject to the following conditions:
+
+The above copyright notice and this permission notice shall be included in all
+copies or substantial portions of the Software.
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+SOFTWARE.
 
 
 개발 환경 (Development Environment)
