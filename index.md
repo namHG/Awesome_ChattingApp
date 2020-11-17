@@ -182,4 +182,4 @@ Goto SECURITY POLICY of Awesome_ChattingApp : [SECURITY.md](https://github.com/b
 본 레포지토리에서 모든 소스코드를 보실 수 있습니다.
 [goto Awesome_ChattingApp repository](https://github.com/bnbong/Awesome_ChattingApp)
 
-감사합니다
+감사합니다.
