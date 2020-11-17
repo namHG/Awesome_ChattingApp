@@ -76,4 +76,4 @@ public class MyAdapter extends RecyclerView.Adapter<MyAdapter.MyViewHolder> {
     }
 }
 
-//20201117
+//20201117 ㅗ
